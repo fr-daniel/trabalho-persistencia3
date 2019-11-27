@@ -15,7 +15,7 @@ public class Principal {
 	public static void main(String[] args) {
 		
 		// exemplo01SimpleClient();
-		testesComDao();
+		TesteDAODepartamento.test();
 		
 		System.out.println("Bye, Cassandra");
 	}
@@ -23,7 +23,7 @@ public class Principal {
 	public static void testesComDao() {
 		UserDAO dao = new UserCassadraDAO();
 		
-		// exemplo02InsertDAO(dao);
+//		 exemplo02InsertDAO(dao);
 		// exemplo03UpdateDAO(dao);
 		// exemplo04DeleteByIdDAO(dao);
 		// exemplo05DeleteByUserDAO(dao);
